@@ -34,8 +34,6 @@ cd ~/code/repo-example
 2. Initialize repo using the manifest remote URL:
 ```bash
 repo init -u https://github.com/openology/repo-example_manifest.git # read-only
-# or...
-repo init -u git@github.com:openology/repo-example_manifest.git     # ssh-based
 ```
 Note: repo init creates a .repo directory and sets up tracking information, but
 does not check out the tracked projects.

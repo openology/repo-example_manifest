@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+
+  <project name="openology/repo-example_manifest" path="manifest" />
+
+</manifest>
