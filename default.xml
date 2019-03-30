@@ -11,4 +11,8 @@
 
   <project name="openology/repoX" path="repoX" />
 
+  <remote  name="gerrit_googlesource"
+           fetch="https://gerrit.googlesource.com/" />
+  <project name="git-repo" remote="gerrit_googlesource" />
+
 </manifest>
