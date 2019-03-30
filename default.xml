@@ -9,4 +9,6 @@
 
   <project name="openology/repo-example_manifest" path="manifest" />
 
+  <project name="openology/repoX" path="repoX" />
+
 </manifest>
